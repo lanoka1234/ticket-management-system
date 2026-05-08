@@ -1,22 +1,13 @@
-# RS_INIT_01
 # CIS 2368 - Homework 1
-# AI Usage Reference:
-# I used AI during development of this project to help review syntax,
-# troubleshoot connection errors, and confirm SQL query formatting.
-# AI was used as a support tool for debugging and clarification,
-# not to automatically generate the full assignment.
-# All logic, structure, and testing of the program were completed by me.
-
-
 import mysql.connector
 from datetime import date
 
 # connect to the AWS database
 db = mysql.connector.connect(
-    host="cis2368spring.cwxzkbq9zbfc.us-east-1.rds.amazonaws.com",
-    user="admin",
-    password="Netflix123",
-    database="cis2368springdb"
+    host="YOUR_HOST",
+    user="YOUR_USERNAME",
+    password="YOUR_PASSWORD",
+    database="YOUR_DATABASE"
 )
 
 # create cursor so we can run SQL queries
